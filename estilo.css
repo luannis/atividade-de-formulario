@@ -1,0 +1,7 @@
+.formulario-container {
+    border: 1px solid #220303; /* Borda da caixa */
+    padding: 20px; /* Espaçamento interno */
+    width: 300px; /* Largura da caixa */
+    margin: 0 auto; /* Centraliza a caixa horizontalmente */
+    background-color: #976767; /* Cor de fundo da caixa */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Incluindo o arquivo CSS -->
+</head>
+
+<body>
+
+    <div class="formulario-container">
+        <form>
+            <label>Nome:</label> <!--Criar caixa de texto-->
+            <input type="texto" name="nome" maxlength="20" required><br> <!--Assunto da caixa-->
+
+            <label>Idade:</label>
+            <input type="number" name="idade" min="0" max="99" value="18" required><br>
+            <!-- min e max= defiir limites dos NUMEROS-->
+            <!--value= definir o numero inicial no formulario-->
+
+            <label>Endereço:</label>
+            <input type="texto" name="endereço" maxlength="65" required><br> <!--Required= obrigatorio responder-->
+
+            <label>Cidade:</label>
+            <input type="texto" name="cidade" maxlength="45" required><br>
+
+            <label>Sexo:</label><br>
+            <input type="radio" name="sexo" value="masculino" required> Masculino
+            <!--radio= selecionar uma unica opção-->
+            <input type="radio" name="sexo" value="feminino" required> Feminino <br>
+            <br>
+            <label>O que você faz no tempo livre?</label><br> <!--Checkbox= selecione uma ou mais opções. -->
+            <input type="checkbox" name="interrese" value="esportes"> Esportes
+            <input type="checkbox" name="interrese" value="musicas"> Musicas
+            <input type="checkbox" name="interrese" value="arte"> Arte <br>
+            <br>
+
+
+            <input type="submit" name="cidade" maxlength="45" required><br>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
