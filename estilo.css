@@ -1,7 +1,26 @@
-.formulario-container {
+.exemplo {
     border: 2px solid #220303; /* Borda da caixa */
     padding: 10px 10px; /* Espaçamento interno */
     width: 300px; /* Largura da caixa */
     margin:0; /* Centraliza a caixa horizontalmente */
     background-color: #976767; /* Cor de fundo da caixa */
+}
+
+
+.container {
+    display: flex;
+}
+.form {
+    border:2px solid rgb(100, 149, 237);
+    width: 400px;
+    background-color:rgb(21, 21, 141);
+    color: rgb(100, 149, 237);
+    margin: 0;
+}
+.formulario-container {
+    border: 2px solid #220303;
+    padding: 10px 10px;
+    margin:0;
+    width: 300px;
+    background-color: #976767;
 }
